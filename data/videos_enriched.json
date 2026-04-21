@@ -1,0 +1,77 @@
+[
+  {
+    "video_id": "q3SZ3HWZXJ8",
+    "channel_id": "UC5Wz4fFacYuON6IKbhSa7Zw",
+    "channel_name": "MattVidPro",
+    "title": "Opus 4.7 arrived & Googles new TTS Absurdly fun and Unusually Controllable!",
+    "description": "Claude Opus 4.7 is here, Anthropic just launched Claude Design, OpenAI unveiled Rosalind for biology and drug discovery, Google dropped one of the most fun and controllable text-to-speech models I’ve used yet...",
+    "published_at": "2026-04-17T21:54:06Z",
+    "thumbnail": "https://i.ytimg.com/vi/q3SZ3HWZXJ8/hqdefault.jpg",
+    "notes": "ai-news",
+    "url": "https://www.youtube.com/watch?v=q3SZ3HWZXJ8",
+    "transcript": "MattVidPro reviews several recent AI releases. He discusses Claude Opus 4.7, including both improvements and regressions, and shows hands-on impressions of the model. He also covers Claude Design, OpenAI Rosalind for biology and drug discovery, Google's controllable Gemini Flash text-to-speech model, Grok's video understanding, and Alibaba's Happy Oyster. The video is structured as a weekly roundup focused on what matters practically for creators and AI users.",
+    "transcript_source": "manual",
+    "speaker": "MattVidPro",
+    "topics": [
+      "AI news",
+      "Claude Opus",
+      "Google TTS",
+      "AI models",
+      "Tech review",
+      "AI for creators"
+    ],
+    "summary": "MattVidPro reviews recent AI releases, including Claude Opus 4.7 and Google's Gemini Flash text-to-speech model. He provides practical insights for creators and AI users in a weekly roundup format.",
+    "channel_style": "ai-news",
+    "llm_relevance": "high"
+  },
+  {
+    "video_id": "XUxKm40X__g",
+    "channel_id": "UC5Wz4fFacYuON6IKbhSa7Zw",
+    "channel_name": "MattVidPro",
+    "title": "Open AI in High Gear! Super App, Image Gen, & Uncensored Gemma 4!",
+    "description": "OpenAI looks like it is entering a new phase. In this video I break down the leaked Codex super app, the hype around Spud, early Images V2 signs...",
+    "published_at": "2026-04-14T21:39:51Z",
+    "thumbnail": "https://i.ytimg.com/vi/XUxKm40X__g/hqdefault.jpg",
+    "notes": "ai-news",
+    "url": "https://www.youtube.com/watch?v=XUxKm40X__g",
+    "transcript": "MattVidPro analyzes recent OpenAI and broader AI ecosystem developments. He discusses leaked signs of a Codex-style super app, speculation around Spud, previews of OpenAI Images V2, and Anthropic's move toward a more complete builder workflow. He also covers Gemini Robotics, uncensored local Gemma variants, and open image generation models. The overall framing is that major AI labs are accelerating and increasingly competing across full-stack consumer and developer products.",
+    "transcript_source": "manual",
+    "speaker": "MattVidPro",
+    "topics": [
+      "OpenAI super app",
+      "OpenAI Images V2",
+      "Anthropic workflow",
+      "Gemini Robotics",
+      "Uncensored Gemma",
+      "Open image models"
+    ],
+    "summary": "MattVidPro analyzes recent OpenAI and broader AI ecosystem developments, discussing a leaked super app, OpenAI Images V2, Anthropic's builder workflow, Gemini Robotics, and uncensored Gemma variants. He highlights the accelerated competition among major AI labs across consumer and developer products.",
+    "channel_style": "ai-news",
+    "llm_relevance": "high"
+  },
+  {
+    "video_id": "dHBEQ-Ryo24",
+    "channel_id": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "channel_name": "Machine Learning Street Talk",
+    "title": "The Dangerous Illusion of AI Coding? - Jeremy Howard",
+    "description": "Dive into the realities of AI-assisted coding, the origins of modern fine-tuning, and the cognitive science behind machine learning with fast.ai founder Jeremy Howard...",
+    "published_at": "2026-03-03T14:50:11Z",
+    "thumbnail": "https://i.ytimg.com/vi/dHBEQ-Ryo24/hqdefault.jpg",
+    "notes": "llm-tools",
+    "url": "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
+    "transcript": "In this interview, Jeremy Howard discusses AI-assisted coding and argues that software engineering cannot be reduced to prompt-based code generation. He reflects on the origins of ULMFiT and the pretraining-plus-finetuning paradigm, then connects those ideas to how developers build intuition and technical understanding. The conversation critiques 'vibe coding' as potentially eroding control and learning, and contrasts shallow automation gains with deeper engineering knowledge. The episode is more reflective and research-oriented than a typical AI news update.",
+    "transcript_source": "manual",
+    "speaker": "Jeremy Howard",
+    "topics": [
+      "AI coding",
+      "software engineering",
+      "developer intuition",
+      "prompt engineering",
+      "ULMFiT",
+      "automation risks"
+    ],
+    "summary": "Jeremy Howard critically discusses AI-assisted coding, arguing against reducing software engineering to prompt-based generation and emphasizing the importance of deep developer intuition. He connects this to the origins of pretraining-plus-finetuning and warns against the potential erosion of learning from 'vibe coding'.",
+    "channel_style": "research-discussion",
+    "llm_relevance": "high"
+  }
+]

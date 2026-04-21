@@ -1,0 +1,94 @@
+channel_name,channel_id,status,source,discovered_query,subscriber_count,channel_view_count,video_count,recent_llm_ratio,avg_recent_views,best_recent_video_views,score,weeks_below_threshold,last_seen
+Sebastian Raschka,UC_CzsS7UTjcxJ-xXp1ftxtA,promoted,auto,large language model,84800,2925724,305,1.0,46915,138479,0.757,0,2026-04-21
+Claude,UCV03SRZXJEz-hchIAogeJOg,promoted,auto,claude ai,197000,5939029,37,1.0,156900,645830,0.755,0,2026-04-21
+Anthropic,UCrDwWp7EBBv4NwvScIpBDOA,candidate,auto,anthropic|claude ai,547000,23507213,172,0.9,346680,670288,0.746,1,2026-04-21
+OpenAI,UCXZCJLdBC09xxGZ6gcdrc6A,candidate,auto,openai,1930000,111499880,501,0.9,232199,2185163,0.682,1,2026-04-21
+LLM Haven,UCdLYMxVUDGGnPkPSC5z7yRQ,candidate,auto,llm,8490,1164840,159,1.0,12119,20377,0.646,1,2026-04-21
+Rafa Voss | Claude & AI,UCbSAFcj6mhbAfREWVC5o6PQ,candidate,auto,claude ai,77200,2573485,139,1.0,15109,34890,0.642,1,2026-04-21
+AI Code Clash,UCHGFRElhzCWc2xLS3zfJ5HQ,candidate,auto,ai coding|claude ai|gemini ai,5840,9549778,33,1.0,58999,310831,0.624,1,2026-04-21
+Alex Ziskind,UCajiMK_CY9icRhLepS8_3ug,candidate,auto,large language model|llm,492000,98320924,1128,1.0,152192,387469,0.623,1,2026-04-21
+Nate Herk | AI Automation,UC2ojq-nuP8ceeHqiroeKhBA,candidate,auto,llm,675000,32092846,394,1.0,95071,174426,0.619,1,2026-04-21
+FatherPhi,UCIw9p-0zI1rEPEs_SS6fDkg,candidate,auto,ai coding,147000,89743732,403,1.0,171989,659928,0.613,1,2026-04-21
+Google Brasil,UCf2qcg2_6N5ltXnqu1-4Fmg,candidate,auto,gemini ai,1350000,3949167238,817,0.9,4189078,41884521,0.601,1,2026-04-21
+AI News & Strategy Daily | Nate B Jones,UC0C-17n9iuUQPylguM1d-lQ,candidate,auto,ai news,266000,17924782,911,0.9,24920,66539,0.589,1,2026-04-21
+Tommy - Claude Ai Developer,UCYr1E3ALRxYvWqTnCHo8avA,candidate,auto,claude ai,1020,5080,1,1.0,5084,5084,0.586,1,2026-04-21
+AI News,UCDZfn935vwaahDabsfylfIQ,candidate,auto,ai news,92300,10418110,466,0.9,4493,12555,0.582,1,2026-04-21
+AI Code Arena,UCPb-8VQEkbbyjTPbVObvn1Q,candidate,auto,ai coding,12000,15593240,63,0.9,15768,33429,0.581,1,2026-04-21
+AICodeKing,UC0m81bQuthaQZmFbXEY9QSw,candidate,auto,ai coding,127000,14142789,858,1.0,11956,32238,0.573,1,2026-04-21
+Under The Hood,UC1Fbs79pHFvgwt4b2YA-ehQ,candidate,auto,large language model,14400,297607,11,0.9,29753,103916,0.564,1,2026-04-21
+仮想通貨×AIエージェント大吉のClaude Code投資ラボ,UCSNgMVSqfZl--GABZ9W-dlA,candidate,auto,claude ai,12100,1496,8,1.0,194,254,0.562,1,2026-04-21
+LLM RAG dev (AI),UCK0V0K_q-GQqwqmGMbVn6kw,candidate,auto,llm,1570,62107,106,0.9,778,3899,0.561,1,2026-04-21
+unprompted,UC5GCrYGsm7EHQzQZj65A-5w,candidate,auto,large language model|llm,10000,365196,59,1.0,3676,18443,0.561,1,2026-04-21
+Lapaas Tech ,UCfhDCkEAONCjFI_cNzacAmw,candidate,auto,ai news,38400,4108994,264,1.0,8909,18477,0.558,1,2026-04-21
+Fireship,UCsBjURrPoezykLs9EqgamOA,candidate,auto,ai coding|ai news|anthropic|claude ai|large language model,4190000,692723354,804,0.7,1059228,3162340,0.552,1,2026-04-21
+The AI Daily Brief: Artificial Intelligence News,UCKelCK4ZaO6HeEI1KQjqzWA,candidate,auto,ai news,578000,10994747,1380,0.9,5370,8863,0.546,1,2026-04-21
+AI Coding Daily,UCIuDdCJXnKZb4CUzhVO-DcQ,candidate,auto,ai coding,9350,636182,149,1.0,5524,13332,0.538,1,2026-04-21
+LLM gaming,UC3ql52zZ1gu4nu4rmuVIEJg,candidate,auto,llm,71,27060,34,1.0,1376,2590,0.514,1,2026-04-21
+Andrej Karpathy,UCXUPKJO5MZQN11PqgIvyuvQ,candidate,auto,large language model,1360000,27816389,17,0.6,2295938,7120588,0.511,1,2026-04-21
+AI Researcher,UC3k6WsP5sOtsDQTVIOWIxgQ,candidate,auto,large language model,1510,35859,18,0.6,1281,3128,0.506,1,2026-04-21
+AI Coding,UC0qHZSRXqTq7fSdkBkOmfuw,candidate,auto,ai coding,8740,687997,224,1.0,582,1788,0.505,1,2026-04-21
+ColdFusion,UC4QZ_LsYcvcq7qOsOhpAX4A,candidate,auto,openai,5190000,561113857,562,0.4,953608,2156895,0.491,1,2026-04-21
+Gemini AI generated Nasheed,UCuWp7Jfk6Id0Evh2fc-dWMA,candidate,auto,gemini ai,361,41569,63,0.8,694,2558,0.488,1,2026-04-21
+Alberta Tech,UCkdgAA0rfK7lG5dv4o__Paw,candidate,auto,claude ai,427000,411896292,301,0.4,967761,2419091,0.468,1,2026-04-21
+LLM-CHURCH TADEPALLIGUDEM,UCvKiK-z-UKVT4qM4ffK2z9g,candidate,auto,llm,1830,466012,1215,0.7,475,1975,0.467,1,2026-04-21
+Gemini Ai,UCOFPaa5Dy97loJFQskPyduA,candidate,auto,gemini ai,1,52,1,1.0,52,52,0.462,1,2026-04-21
+Cooking with Claude AI,UCTK82OcrQaKIMERuDwjB7ug,candidate,auto,claude ai,3,31,1,1.0,31,31,0.461,1,2026-04-21
+Google México,UCw4tBhWrt-NPqrcyY3Q8Xog,candidate,auto,gemini ai,533000,1996016917,796,0.4,16907345,111425589,0.443,1,2026-04-21
+Gemini Ai,UCuYphddiQIZsU63Jr1ON0OQ,candidate,auto,gemini ai,2,8,1,1.0,8,8,0.44,1,2026-04-21
+Andy at OpenAI ,UC_YflCT7knyfEwSPbgRquqg,candidate,auto,openai,1,44,5,1.0,8,16,0.436,1,2026-04-21
+Gemini AI,UC6scniCDUc-hX5Qp-36xznA,candidate,auto,gemini ai,0,8,1,1.0,8,8,0.43,1,2026-04-21
+OpenAI,UCYmoYa_Z-bOT8ko1aufeECw,candidate,auto,openai,1970,1244339,4,0.25,311084,1244019,0.427,1,2026-04-21
+AI Paper Podcast,UCUPRZgTjxZdU2HK1vGcSchw,candidate,auto,large language model,178,4316,16,0.9,242,1073,0.426,1,2026-04-21
+LLM,UCgUhj8haRo9HzDoGWzgJJNw,candidate,auto,llm,19,1604,5,0.8,321,596,0.421,1,2026-04-21
+Maximilian Jesch,UCou5bGbZ00pbcNdRCnqACnA,candidate,auto,large language model,1020,48513,19,0.8,2967,10455,0.42,1,2026-04-21
+Gemini AI,UCyEpr8SeX2TMun0oSfMId8Q,candidate,auto,gemini ai,1,4,4,1.0,1,2,0.414,1,2026-04-21
+Phil Anthropic,UCt7n6g_b95_9NTm769zgsGw,candidate,auto,anthropic,43,1423,3,0.667,474,934,0.394,1,2026-04-21
+Claude AI Engine ,UCger9FSDX9F2XDk0cNjQRjA,candidate,auto,claude ai,20,367485,95,0.5,2426,23080,0.389,1,2026-04-21
+The Daily Show,UCwWhs_6x42TyRM4Wstoq8HA,candidate,auto,ai news,13800000,9094565662,8654,0.0,394825,3160786,0.365,1,2026-04-21
+The Infographics Show,UCfdNM3NAhaBOXCafH7krzrA,candidate,auto,openai,15400000,6762167526,6132,0.0,218643,836855,0.356,1,2026-04-21
+LLM Guy,UCZthE9cPZpRga8wwDsG-ksg,candidate,auto,llm,634,42445,33,0.3,758,1128,0.344,1,2026-04-21
+GonzoML Podcasts,UCIZbbeTPTLTzxuDOhY5wmTA,candidate,auto,large language model,58,1150,11,0.7,99,161,0.343,1,2026-04-21
+The Diary Of A CEO,UCGq-a57w-aPwyi3pW7XLiHw,candidate,auto,ai news|openai,15900000,1363844123,745,0.0,440897,1993210,0.338,1,2026-04-21
+CarterPCs,UCi7wDE2ZTiR5QYYrUY5WhtA,candidate,auto,ai news|anthropic|claude ai|gemini ai|openai,2320000,4641879550,4141,0.0,1304887,2847902,0.336,1,2026-04-21
+jacobweeby,UCRFSF9WS_g0wqm32kjJ-jNw,candidate,auto,openai,2230000,2303422718,1000,0.0,2374551,4411722,0.336,1,2026-04-21
+The Anthropic,UCbW0-TVyJvs2Gg27gU5ik1w,candidate,auto,anthropic,2090,447828,103,0.2,5545,27823,0.326,1,2026-04-21
+Claude The Fashion AI,UCqTXzweukn8CIrzjMphqZqQ,candidate,auto,claude ai,1760,80530,59,0.2,762,1647,0.324,1,2026-04-21
+Pierre Dalati,UC8Av1tO-ha143nNYzxmf1Fg,candidate,auto,ai coding,2040000,988308443,1309,0.0,408906,1326266,0.322,1,2026-04-21
+AI NEWS,UCdPhFNpc6uNsN-_dz95qMCQ,candidate,auto,ai news,305,129011,368,0.2,241,850,0.319,1,2026-04-21
+Vrhunske Price,UC2ixcIQNDC-hbIvVoCalhjw,candidate,auto,ai news,184000,119472314,55,0.0,2103171,8895832,0.313,1,2026-04-21
+OpenAI [LIVE],UCsb4b-D_2NDm94R96Rkgg4A,candidate,auto,openai,156,147711,2,0.0,73855,89600,0.307,1,2026-04-21
+AI Coding,UC8FB3UGeHITLOoxb_1F085Q,candidate,auto,ai coding,4690,173652,25,0.2,1691,5560,0.302,1,2026-04-21
+OpenAI,UC3c8TugXb4wqnu_m-M7jAwQ,candidate,auto,openai,1080,380637,117,0.1,1809,15551,0.302,1,2026-04-21
+Bần Tank Yêu Công Nghệ,UCrrAcuAu0kN-os50HdnYiNg,candidate,auto,gemini ai,72800,84971485,320,0.0,688158,5639009,0.299,1,2026-04-21
+Gemini x dola ai,UCjDNvimtILQoZOvW-m9Uz1A,candidate,auto,gemini ai,0,120,4,0.5,30,41,0.298,1,2026-04-21
+Communication LLM,UCRdAwDI7I3gEZ2kb5i4pBrg,candidate,auto,llm,1280,426063,1294,0.3,98,194,0.293,1,2026-04-21
+CNN,UCupvZG-5ko_eiXAupbDfxWw,candidate,auto,anthropic|claude ai,19500000,20456876794,181962,0.0,17219,57040,0.291,1,2026-04-21
+OpenAI,UC6lusF_jsP7iMCXYRga8atA,candidate,auto,openai,518,955295,21,0.1,584,2426,0.278,1,2026-04-21
+"Reexpress AI, Inc.",UCz_qQOlS-MQGlhw-hv9Fs3g,candidate,auto,large language model,7,1543,10,0.5,154,364,0.27,1,2026-04-21
+AI-Coding,UCH-SINVuO6VJHvNnExJaY8Q,candidate,auto,ai coding,1520,2429,4,0.25,607,2400,0.264,1,2026-04-21
+Kevin Musgrave,UCh8OU5xaciWw0pWuhHyoP3A,candidate,auto,large language model,76,15699,18,0.4,1054,2590,0.261,1,2026-04-21
+Anthropic,UCtrggo2guQ7ZgUAmoT3bPfg,candidate,auto,anthropic,235,131648,32,0.0,7551,36691,0.25,1,2026-04-21
+OpenAI,UC5RTF4iHyBCUN0T9eXg2JTA,candidate,auto,openai,230,38139,15,0.0,925,3396,0.248,1,2026-04-21
+Gemini AI,UCkTYdLFBdhmXsOLtHNvYO6g,candidate,auto,gemini ai,7,3066,1,0.0,3066,3066,0.234,1,2026-04-21
+LLM Prep by Global Law Academy,UCJmHZvh4K26FZwUqjpHnriw,candidate,auto,llm,27,4877,8,0.125,609,1659,0.231,1,2026-04-21
+Vexora,UC3QxfJMeLGOekt0PDArtGzA,candidate,auto,large language model,17200,2426767,66,0.0,1443,2926,0.224,1,2026-04-21
+Anthropic,UC6JyEfIUD4jnxNCzfuM7vIA,candidate,auto,anthropic,14,5063,8,0.0,632,937,0.217,1,2026-04-21
+Anthropic,UCQgZw2YMCUv5gBEB-jkTGyg,candidate,auto,anthropic,41,5038,25,0.2,33,70,0.216,1,2026-04-21
+AI NEWS,UCU9gfETkEVCE9DivdqTa4gQ,candidate,auto,ai news,5,2693,12,0.3,215,1323,0.212,1,2026-04-21
+Anthropic Space,UCqMbQbA44Hh-J5y3ZpO8QRw,candidate,auto,anthropic,68,3816,11,0.0,298,1049,0.192,1,2026-04-21
+AI NEWS,UCIp-ZttUV4Vw3rG6EUtK1oA,candidate,auto,ai news,336,5660,29,0.2,18,113,0.185,1,2026-04-21
+AINEWS | AI Summit Brasil,UCD3N6bybdzniBeqSf8kyosQ,candidate,auto,ai news,1690,45244,291,0.1,48,82,0.184,1,2026-04-21
+Gemini AI Editor,UCc3jI2hiyX-8TjBk1RbqEjg,candidate,auto,gemini ai,0,130,1,0.0,147,147,0.17,1,2026-04-21
+Nebula AI Coding,UCr3sE59hKb2xQo6MhcJHAfQ,candidate,auto,ai coding,3,740,1,0.0,740,740,0.165,1,2026-04-21
+Dr. G. M. John LLM & Research Associates,UCR1oCppUDWQ14re8gedSP3w,candidate,auto,llm,56,664,11,0.0,37,119,0.16,1,2026-04-21
+Jean-Claude AI News,UCdJ-0w2_JXTMa9-VvQMfduw,candidate,auto,claude ai,9,87,7,0.0,12,46,0.157,1,2026-04-21
+Smart Code Ai,UCGiQigfcnt95Jll88a9xwjw,candidate,auto,ai coding,11,9118,9,0.0,1013,2107,0.151,1,2026-04-21
+OpenAI,UCbCRE4lxg4YbK6kSTLIJhiw,candidate,auto,openai,2,35,2,0.0,17,23,0.15,1,2026-04-21
+Gemini AI Generated Videos,UCdPTse76reqZxnrG_snQGTQ,candidate,auto,gemini ai,8,2570,40,0.0,6,13,0.147,1,2026-04-21
+Miss.Anthropic,UCTzvJliGKdK-hEBNZHVSG8A,candidate,auto,anthropic,17,359,34,0.0,18,106,0.14,1,2026-04-21
+Open Ai,UCawtGBZeVTBN94fGlhoVpQQ,candidate,auto,openai,1,1283,1,0.0,1283,1283,0.138,1,2026-04-21
+ITVIBEZ - AI & Coding academy,UCAO2pfCAIOpsswVJ-SiK_vw,candidate,auto,ai coding,1,1365,3,0.0,455,1170,0.123,1,2026-04-21
+AI Crypto News,UCA2CGaFYChZCBJlIH0ntn2A,candidate,auto,ai news,6,293,5,0.0,58,110,0.105,1,2026-04-21
+Sora By OpenAi,UClfOYVHrQHTcluv0xo9xfzA,candidate,auto,openai,0,512,242,0.0,0,1,0.098,1,2026-04-21
+LLM,UC8JgLL6wMgRQtND3piIoizQ,candidate,auto,llm,1,1528,19,0.0,3,12,0.097,1,2026-04-21
+Future Ai coding and editing ,UCFcY-jnO5X99NONxC3x-DJw,candidate,auto,ai coding,0,1,1,0.0,1,1,0.038,1,2026-04-21
