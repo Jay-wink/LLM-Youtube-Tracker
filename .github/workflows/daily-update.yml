@@ -43,7 +43,7 @@ jobs:
         run: python scripts/get_transcripts.py
 
       - name: Enrich with LLM
-        run: python scripts/enrich_with_llm.py
+        run: python -u scripts/enrich_with_llm.py
 
       - name: Build site
         run: python scripts/build_site.py
