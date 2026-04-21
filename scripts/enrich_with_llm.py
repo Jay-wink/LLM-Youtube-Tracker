@@ -13,8 +13,7 @@ INPUT_FILE = ROOT / "data" / "videos_with_transcripts.json"
 OUTPUT_FILE = ROOT / "data" / "site_data.json"
 
 BATCH_SIZE = 3
-MAX_VIDEOS_TO_ENRICH = 9  # 可按需调整
-
+MAX_VIDEOS_TO_ENRICH = 9  
 
 def log(msg: str) -> None:
     print(msg, flush=True)
@@ -276,15 +275,15 @@ def main():
     videos = json.loads(raw_text)
     log(f"[Main] Loaded {len(videos)} videos from {INPUT_FILE}")
 
-    # 只保留有 transcript 的视频
+    # only videos with transcript
     videos = [v for v in videos if v.get("transcript", "").strip()]
     log(f"[Main] {len(videos)} videos have transcripts")
 
-    # 只保留看起来和 LLM 相关的视频
+    # only LLM-related videos
     videos = [v for v in videos if looks_llm_related(v)]
     log(f"[Main] {len(videos)} videos look LLM-related")
 
-    # 限制本次 enrichment 数量
+    # restrict number of enrichment
     videos = videos[:MAX_VIDEOS_TO_ENRICH]
     log(f"[Main] Selected {len(videos)} videos for enrichment")
 
@@ -314,7 +313,6 @@ def main():
         merged_batch = merge_batch_results(batch, batch_results)
         enriched_videos.extend(merged_batch)
 
-        # 给免费额度一点喘息时间
         if idx < len(batches):
             log("[Main] Sleeping 12 seconds before next batch...")
             time.sleep(12)
