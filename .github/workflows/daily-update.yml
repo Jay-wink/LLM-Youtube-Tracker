@@ -89,7 +89,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Enrich with LLM
-        run: python -u scripts/enrich_with_llm_batch.py
+        run: python -u scripts/enrich_with_llm.py
 
       - name: Build site
         run: python scripts/build_site.py
