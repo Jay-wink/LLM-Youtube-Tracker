@@ -18,6 +18,10 @@ jobs:
   fetch-and-transcribe:
     runs-on: [self-hosted, Windows, X64, local-transcripts]
 
+    defaults:
+      run:
+        shell: cmd
+
     env:
       YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
