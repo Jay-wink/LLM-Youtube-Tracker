@@ -1,5 +1,8 @@
 google-api-python-client
 python-dotenv
 google-genai
-youtube-transcript-api
 pypdf
+requests
+beautifulsoup4
+yt-dlp[default,curl-cffi]
+faster-whisper
