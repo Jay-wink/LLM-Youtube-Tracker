@@ -166,10 +166,6 @@ def main():
                 {''.join(rows)}
             </tbody>
         </table>
-
-        <p class="note">
-            Phase 2 adds channel-level landscape analysis and top-topic aggregation on top of transcript-based LLM extraction.
-        </p>
     </body>
     </html>
     """

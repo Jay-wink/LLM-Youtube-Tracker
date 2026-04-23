@@ -165,7 +165,11 @@ def find_candidate_transcript_links(description: str) -> list[str]:
 
 def fetch_pdf_text(url: str) -> str:
     response = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
-    response.raise_for_status()
+
+    if response.status_code != 200:
+        raise requests.HTTPError(
+            f"PDF request failed with status {response.status_code} for {url}"
+        )
 
     pdf_bytes = io.BytesIO(response.content)
     reader = PdfReader(pdf_bytes)
@@ -222,23 +226,31 @@ def fetch_transcript_from_description_links(video: dict) -> tuple[str, str]:
         try:
             lower = url.lower()
 
-            # Prefer PDF first
             if lower.endswith(".pdf") or "/pdf" in lower:
+                log(f"    [desc-link] trying PDF transcript: {url}")
                 text = fetch_pdf_text(url)
                 if text and len(text) > 300:
+                    log(f"    [desc-link] success from PDF")
                     return text, "creator_pdf"
+                log(f"    [desc-link] PDF did not yield usable text")
                 continue
 
-            # Then transcript / rescript pages
+            if "app.rescript.info/public/share/" in lower:
+                log(f"    [desc-link] skipping JS-only rescript share page: {url}")
+                continue
+
+            log(f"    [desc-link] trying HTML transcript page: {url}")
             text = fetch_html_text(url)
             if text and len(text) > 300:
+                log(f"    [desc-link] success from HTML page")
                 return text, "creator_link"
 
+            log(f"    [desc-link] HTML page did not yield usable text")
+
         except Exception as e:
-            log(f"    [desc-link] failed for {url}: {type(e).__name__}")
+            log(f"    [desc-link] failed for {url}: {type(e).__name__}: {e}")
 
     return "", ""
-
 
 def download_audio_with_ytdlp(video_url: str) -> tuple[Path | None, str]:
     with tempfile.TemporaryDirectory() as tmpdir:
@@ -247,7 +259,6 @@ def download_audio_with_ytdlp(video_url: str) -> tuple[Path | None, str]:
 
         cmd = [
             "yt-dlp",
-            "-v",
             "--js-runtimes", "deno",
             "--no-playlist",
             "-f", "bestaudio/best",
@@ -255,6 +266,7 @@ def download_audio_with_ytdlp(video_url: str) -> tuple[Path | None, str]:
             video_url,
         ]
 
+        log(f"    [asr] downloading audio with yt-dlp...")
         result = subprocess.run(
             cmd,
             capture_output=True,
@@ -284,6 +296,7 @@ def download_audio_with_ytdlp(video_url: str) -> tuple[Path | None, str]:
             tmp_out.write(chosen.read_bytes())
             stable_path = Path(tmp_out.name)
 
+        log(f"    [asr] audio downloaded: {stable_path.name}")
         return stable_path, "downloaded_audio"
 
 
@@ -312,10 +325,14 @@ def fetch_transcript_from_audio(video: dict, model: WhisperModel) -> tuple[str, 
 
     audio_path, source = download_audio_with_ytdlp(video_url)
     if audio_path is None:
+        log(f"    [asr] audio download failed: {source}")
         return "", source
 
     try:
+        log("    [asr] starting whisper transcription...")
         text = transcribe_audio(audio_path, model)
+        log("    [asr] whisper transcription finished")
+
         if text and len(text) > 100:
             return text, "yt_dlp_asr"
         return "", "missing"

@@ -284,7 +284,7 @@ def main():
     log(f"[Main] {len(videos)} videos look LLM-related")
 
     # restrict number of enrichment
-    videos = videos[:MAX_VIDEOS_TO_ENRICH]
+    #videos = videos[:MAX_VIDEOS_TO_ENRICH]
     log(f"[Main] Selected {len(videos)} videos for enrichment")
 
     if not videos:
