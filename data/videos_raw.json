@@ -1,5 +1,16 @@
 [
   {
+    "video_id": "U9jGOz_Lcbo",
+    "title": "All your everyday apps, in one conversation",
+    "description": "Claude now also connects to the apps you use outside of work, from travel and food to entertainment and home. Ask for what you need, and Claude pulls in the right app. Available on web, desktop, and mobile across all plans.",
+    "published_at": "2026-04-23T17:39:30Z",
+    "thumbnail": "https://i.ytimg.com/vi/U9jGOz_Lcbo/hqdefault.jpg",
+    "channel_id": "UCV03SRZXJEz-hchIAogeJOg",
+    "channel_name": "Claude",
+    "notes": "official-llm-channel",
+    "url": "https://www.youtube.com/watch?v=U9jGOz_Lcbo"
+  },
+  {
     "video_id": "ma7oe_5h0ag",
     "title": "How Anthropic uses Claude in Product Engineering",
     "description": "Product engineers lose hours toggling between tools and tackling subtasks one at a time. Software engineer Chuma Kabaghe shows how she uses Claude Code to onboard onto unfamiliar codebases in minutes, run autonomous testing loops, and manage parallel coding sessions, reducing context switching and shipping faster.\n\nCheck out other stories in the \"How Anthropic uses Claude\" series, below: \n- How Anthropic uses Claude in Legal: https://www.youtube.com/watch?v=tJP6SKfo49c\n- How Anthropic uses Claude in Marketing: https://www.youtube.com/watch?v=Jp83_JMK74o\n- How Anthropic uses Claude in Product Management: https://www.youtube.com/watch?v=91AJ0cpgLlQ\n\nGet started with Claude Code: https://code.claude.com/docs/en/quickstart",
@@ -42,17 +53,6 @@
     "channel_name": "Claude",
     "notes": "official-llm-channel",
     "url": "https://www.youtube.com/watch?v=TkSZqH0n7m0"
-  },
-  {
-    "video_id": "TxS-1invhzg",
-    "title": "Building a PowerPoint with Claude",
-    "description": "Part 1 of 3. Learn the basics of building a PowerPoint presentation with Claude. See how to use Claude directly in PowerPoint to build and edit slides that stay on-brand.\n\nLearn more: Claude.com/tutorials",
-    "published_at": "2026-04-16T19:30:51Z",
-    "thumbnail": "https://i.ytimg.com/vi/TxS-1invhzg/hqdefault.jpg",
-    "channel_id": "UCV03SRZXJEz-hchIAogeJOg",
-    "channel_name": "Claude",
-    "notes": "official-llm-channel",
-    "url": "https://www.youtube.com/watch?v=TxS-1invhzg"
   },
   {
     "video_id": "EInEmGaMRLc",
