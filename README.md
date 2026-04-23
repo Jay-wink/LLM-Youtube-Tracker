@@ -26,10 +26,7 @@ We maintain a dynamic list of YouTube channels:
 * `channels.csv`: curated + promoted channels
 * `channel_candidates.csv`: automatically discovered candidates
 
-The pipeline is shown below:
-![Pipeline Diagram](./pipeline.png)
-
-It performs:
+The pipeline is shown below, which performs:
 1. Fetch recent videos via YouTube Data API
 2. Store metadata (title, description, publish date, etc.)
 
